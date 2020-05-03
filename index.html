@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Weng Kai : Arduino, Raspberry Pi" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Weng Kai</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/wengkai">View on GitHub</a>
+
+          <h1 id="project_title">Weng Kai</h1>
+          <h2 id="project_tagline">Arduino, Raspberry Pi</h2>
+
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h3>如何制作和发布Arduino库</h3>
+        <p>本文是关于如何将自己写的Arduino库整理、发布成Arduino IDE的库管理器能管理、能提供给所有用户下载、升级的库。</p>
+        <p align=right><a href="arduino/arduinolib.html">Read more...</a></p>
+        <h3>从去抖动程序看代码的工程化</h3>
+        <p>按键去抖动是Arduino程序的常见小问题。在<a href='https://www.arduino.cc/en/Tutorial/Debounce' target=_blank>Arduino.cc</a>直接就有相关的教程。但是这些教程都是技术原理试验，并不是工程直接能用的代码。</p>
+        <p align=right><a href="arduino/debounce.html">Read more...</a></p>
+        <h3>做一条USB电台线</h3>
+        <p>我需要一条电台控制线，连接PC和电台，能获得电台的频率和模式，能产生CW信号，能控制PTT，能将电台接收到的声音接入电脑，能把电脑的声音传给电台去发射。</p>
+        <p align=right><a href="usbrig/usbrig.html">Read more...</a></p>
+        <h3>搭建自己的GPS时间服务器</h3>
+        <p>ntp是互联网时间协议，Windows、Linux和MacOS都可以依靠ntp来对时。GPS可以给出准确的UTC时间，还能给出精确的秒脉冲。给树莓派配上GPS模块，就可以实现一个从GPS获得时间数据的时间服务器，为自己局域网内的计算机提供精准的时间源。</p>
+        <p align=right><a href="ntpserver/ntpserver.html">Read more...</a></p>
+        <h3>Git服务器的搭建</h3>
+        <p>虽然Git的本意并非如此，但是我们往往需要的是一个中央存储服务器，能帮我们实现手头工作的远端存储和多机同步，顺便利用一下Git的版本管理和分支功能。那么，如何在远端的Linux机器上搭建一个Git服务器呢？</p>
+        <p align=right><a href="gitserver/git_server.html">Read more...</a></p>
+        <h3>STM32F100C8</h3>
+        <p>这是一块非主流的片子，作为Cortex-M3系列的成员，它的最高主频只有24MHz，只是常见的103的1/3，它没有USB支持。但是，我喜欢它的理由是，它是LQFP48封装。小，就是理由。</p>
+        <p align=right><a href="stm32f100/stm32f100.html">Read more...</a></p>
+        <h3>pcDuino开机配置</h3>
+        <p>拿到的pcDuino已经安装好了ubuntu，不过自己用还是需要一些初步的配置的。</p>
+        <p align=right><a href="pcduinonew/pcduinonew.html">Read more...</a></p>
+        <h3>徒手配树莓派</h3>
+        <p>好吧，题目有点耸人，说是徒手，只是不需要显示器和键盘而已。现在的树莓派系统镜像已经预先做好了大部分的配置，我们完全有可能不依赖显示器就把一个树莓派配置好。</p>
+        <p align=right><a href="rpinew/rpinew.html">Read more...</a></p>
+        <h3>C语言的宏运算符的例子</h3>
+        <p>在讲到编译预处理指令的宏运算符##时，同学们都不太理解这东西有什么用。今天恰好在Arduino的Ethernet库的头文件里看到了活的例子。</p>
+        <p align=right><a href="cmacro/cmacro.html">Read more...</a></p>
+        <hr>
+        <h3>带MMU的ARM7系统设计</h3>
+        <p>2108是2001年为某公司开发的VoIP电话机的主板。它采用Cirrus Logic 的EP7312为CPU，具有2MB或4MB的flash，16MB的SDRAM，一个10M的以太网口，G.711的音频编解码器和音频功放。</p>
+        <p align=right><a href="2108/index.html">Read more...</a></p>
+        <hr>
+        <h3>模拟电路的模块化</h3>
+        <p>TEM4x4是一系列小板子，可以用来试验收发信机电路。 这些“模块”是用来模块化地做收发信机实验，不要每次都从电阻电容焊起。 其实像LM386音频放大、NE602做检波、NE5532做音频前端，几乎每次做不同的电路都会用到。做成模块后，将来就只要处理好模块之间的接口就可以了。
+        </p>
+        <p align=right><a href="tem/index.html">Read more...</a></p>
+        <hr>
+        <h3>业余电台的旧文章</h3>
+        <p>这里有一些2009年之前写的有关业余电台的文章。</p>
+        <p align=right><a href="ham/index.html">Read more...</a></p>
+        <hr>
+        <hr>
+        <h3>2002年浙大毅行的旧文章</h3>
+        <p><a href="trailwalk/02spring.html">春季</a></p>
+        <p><a href="trailwalk/02fall.html">秋季</a></p>
+        <hr>
+        <h3>新书出版</h3>
+        <p>《Arduino技术内幕》是翻译自<a href="http://www.apress.com" target=_blank>A Press</a>于2011年下半年出版的由<a href="http://www.dalewheat.com" target=_blank>Dale Wheat</a>所著的《Arduino Internals》。</p>
+        <p>本书适合各个层次的Arduino用户阅读参考，无论跃跃欲试的新手，还是经验丰富的专家都能从中获益。对于阅读本书来说，你对Arduino和它内部秘密的兴趣就已经足够了。</p>
+        <p align=right><a href="book/arduino_internals.html">Read more...</a></p>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p>&copy;2018, Weng Kai</p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
